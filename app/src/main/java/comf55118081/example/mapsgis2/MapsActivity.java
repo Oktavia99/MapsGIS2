@@ -54,7 +54,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         mMap.moveCamera(CameraUpdateFactory.newLatLng(stikes));
 
         LatLng mouza = new LatLng(-0.8491363, 119.8823169);
-        mMap.addMarker(new MarkerOptions().position(mouza).title("Marker in mouza"));
+        mMap.addMarker(new MarkerOptions().position(mouza).title("Marker in MOUZA"));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(mouza));
 
         mMap.addPolyline(new PolylineOptions().add(
